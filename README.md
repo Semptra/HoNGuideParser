@@ -2,10 +2,18 @@
 
 A small console application that parses the guides from www.heroesofnewerth.com/guides and creates HoN compatible guides.
 
--------------------------------------------------------
+## Downloads
 
-Guides can be found in /game/resources0.s2z/Guides.
-Each guide should be named hero_%hero_name%_guide.txt.
+* [Full collection of **WhatYouGot** guides](https://drive.google.com/drive/folders/1ji8TzG33RCGullyxeHnZOZOxSOeRVfHO)
+
+## How to install
+
+Download the files into `/game/guides`.
+
+## Development
+
+Guides can be found in `/game/resources0.s2z/Guides`.
+Each guide should be named `hero_%hero_name%_guide.txt`.
 
 The guide file consists of the following parts:
 
@@ -31,4 +39,4 @@ Example:
 
 Be careful with all the separators and formatting, because if you missed any special symbol, the guide will not load.
 
-If you want to create your guide, create a folder guides in /game/ and copy an existing guide to it. Next, you can modify it however you want.
+If you want to create your guide, create a folder `guides` in `/game/` and copy an existing guide to it. Next, you can modify it however you want.
